@@ -2,11 +2,11 @@
   "name": "sample",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "ng": "sample/node_modules/.bin/ng",
+    "start": "sample/node_modules/.bin/ng serve",
+    "build": "sample/node_modules/.bin/ng build",
+    "watch": "sample/node_modules/.bin/ng build --watch --configuration development",
+    "test": "sample/node_modules/.bin/ng test"
   },
   "private": true,
   "dependencies": {
